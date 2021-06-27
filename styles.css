@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient( rgb(17, 109, 17), black);
+}
+
+.logo{
+    text-indent: -999999px;
+    background: url('BB_logo.png');
+    width: 290px;
+    height: 183px;
+    margin: auto;
+}
+
+.favs{
+    border-style: hidden;
+    border-color: black;
+    border-radius: 5px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0));
+    height: 1000px;
+}
+.mybutton{
+    transition-duration: 0.4s;
+    color: black;
+    
+}
+
+.mybutton:hover{
+    border-color: rgb(0, 0, 0);
+    border-radius: 10;
+    background-color: rgba(255, 255, 255,0.8);
+
+}
+
+
+h2{
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: fit-content;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    
+}
+
+.my_card{
+    border-color: black;
+}
+
